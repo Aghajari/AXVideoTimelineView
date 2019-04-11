@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Select Video"
+        android:layout_marginTop="10dp"/>
+
+    <com.aghajari.axvideotimelineview.AXVideoTimelineView
+        android:id="@+id/axView"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        app:color="@android:color/white"
+        app:iconColor="@android:color/holo_blue_dark"
+        app:timelineColor="@android:color/holo_blue_dark"
+        app:playLine="true"/>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:text="Duration : 0"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"/>
+</FrameLayout>

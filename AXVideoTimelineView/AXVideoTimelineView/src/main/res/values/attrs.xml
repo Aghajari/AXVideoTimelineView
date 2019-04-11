@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AXVideoTimelineView">
+        <attr name="playLine" format="boolean" />
+        <attr name="videoPath" format="string" />
+        <attr name="color" format="color" />
+        <attr name="iconColor" format="color" />
+        <attr name="timelineColor" format="color" />
+        <attr name="minProgress" format="float" />
+        <attr name="maxProgress" format="float" />
+        <attr name="leftProgress" format="float" />
+        <attr name="rightProgress" format="float" />
+        <attr name="playProgress" format="float" />
+        <attr name="roundFrames" format="boolean" />
+        <attr name="roundRadius" format="dimension" />
+    </declare-styleable>
+</resources>
