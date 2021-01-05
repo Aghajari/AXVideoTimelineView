@@ -12,6 +12,7 @@ AXVideoTimelineView - Video Cropper View - Android
 ...
 
 **Version 1.00**
+
 **Deprecated**
 
 ## Listener
