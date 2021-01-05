@@ -12,9 +12,10 @@ AXVideoTimelineView - Video Cropper View - Android
 ...
 
 **Version 1.00**
+**Deprecated**
 
 ## Listener
-```
+``` java
         void onLeftProgressChanged(float progress)
         void onRightProgressChanged(float progress)
         void onDurationChanged(long Duration)
@@ -39,12 +40,10 @@ AXVideoTimelineView - Video Cropper View - Android
 ```
 
 ## Example
-```
+```java
         AXVideoTimelineView  axVideoTimeline = findViewById(R.id.axView);
         axVideoTimeline.setVideoPath(File);
 ```
 
 ## Author
-Amir Hossein Aghajari
-
-Telegram @KingAmir272
+- Amir Hossein Aghajari
